@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
+body {
+  background: #a29bfe;
+}
+.container {
+  width: 800px;
+  height: 430px;
+  background: white;
+  box-sizing: border-box;
+  margin: auto;
+  margin-top: 10%;
+  letter-spacing: 0.2px;
+  text-align: center;
+  word-wrap: break-word;
+  border-radius: 15px;
+  box-shadow: 5px 5px 7px 5px black;
+  padding: 20px;
+  overflow-x: hidden;
+  font-family: "Akaya Telivigala", cursive;
+  transition: all 2s ease-in-out;
+}
+.container:hover {
+  transform:scale(1.2);
+}
+p {
+  font-size: 20px;
+}
+.container::-webkit-scrollbar {
+  display: none;
+}
+#headImage {
+  border-radius: 50%;
+}
+.btn{
+  background:  #a29bfe;
+  color:white;
+  padding:5px;
+  border:none;
+  border-radius:5px;
+}
+h1{
+  margin: -5px;
+}
+lottie-player{
+  margin-top: -150px;
+  margin-left: 80px;
+}
